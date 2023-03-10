@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+
+.divContainer {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  min-height: 100vh;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tossGameContainer {
+  background-color: #ffffff;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #a35200;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 500;
+}
+.description {
+  font-family: 'Roboto';
+  font-size: 19px;
+  color: #334155;
+  font-weight: bold;
+  margin-top: 0px;
+}
+.resultImage {
+  width: 135px;
+}
+button {
+  background-color: #f9d423;
+  color: #a35200;
+  font-family: 'Roboto';
+  font-weight: bold;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 8px;
+  border-width: 0px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  cursor: pointer;
+  outline: none;
+}
+.results {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 16px;
+  font-weight: bold;
+}
+.resultContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .divContainer {
+    padding: 65px;
+  }
+  .tossGameContainer {
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 31px;
+    padding-bottom: 31px;
+  }
+  .heading {
+    font-size: 36px;
+  }
+  .description {
+    font-size: 21px;
+  }
+  .resultImage {
+    width: 190px;
+  }
+  .resultContainer {
+    flex-direction: row;
+  }
+  .results {
+    padding: 20px;
+  }
+}
